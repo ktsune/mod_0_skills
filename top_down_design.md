@@ -13,6 +13,7 @@
   - walk through doorway into restaurant
     - if there are two sets of doors, repeat steps from
       walk to restaurant door through walk through doorway into restaurant
+
 2 determine what you would like to order
   - ask host human for menu
   - examine menu for delectable options
@@ -20,6 +21,7 @@
     - scan options in this section from top to bottom
   - choose delectable option
   - return menu to host human
+
 3 tell cashier your order
   - stand in line
     - locate humans standing in a (hopefully) linear fashion facing ordering counter
@@ -29,6 +31,7 @@
     - wait until you are the person closest to the counter & the person in front of you has ordered and paid
   - walk up to ordering counter
   - tell cashier what you would like to order
+
 4 pay cashier for your order
   - listen for cashier to tell you order total
   - reach in pants for wallet
