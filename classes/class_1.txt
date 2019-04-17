@@ -5,7 +5,6 @@ class: food_dishes_served
     1 ingredients (array of strings)
     2 seasonings (array of strings)
     3 price (float)
-    4 spice level (integer)
 
   methods:
 
