@@ -1,4 +1,4 @@
-class: food_dishes_served
+class: food_dish_served
 
   attributes:
 
