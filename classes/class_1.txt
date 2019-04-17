@@ -1,0 +1,15 @@
+class: food_dishes_served
+
+attributes:
+
+1 ingredients (array of strings)
+2 seasonings (array of strings)
+3 price (float)
+4 spice level (integer)
+
+methods:
+
+1 add_seasoning (this method would add seasoning to the dish modifying the seasoning attribute)
+2 remove_ingredient (this method would remove an ingredient from the dish modifying the ingredients attribute)
+3 increase_price (this method would increase the price attribute by raising
+  the cost of the food)
