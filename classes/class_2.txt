@@ -1,0 +1,16 @@
+class: seating_option
+
+  attributes:
+
+    1) style_of_seating (array of strings)
+    2) cushion_on_seat (boolean)
+    3) seats_per_table (array of integers)
+
+  methods:
+
+    1) add_seat_to_table ( this method would
+       add an integer to the seats_per_table array )
+    2) add_cushion_to_seat ( this method would
+       change the cushion_on_seat boolean to true for specified seat )
+    3) add_seating_type ( this method would add a string
+        to the style_of_seating array )
