@@ -1,0 +1,35 @@
+1. object: noodles_with_marinara_sauce
+
+
+2. List the values for each attribute:
+
+  attributes with values:
+
+    1. ingredients (array of strings) ["noodles", "marinara sauce", "cheese"]
+    2. seasonings (array of strings) ["pepper", "thyme", "basil"]
+    3. price (float) 9.99
+
+
+3. list the results of the method being called for this specific object
+
+  methods:
+
+    1. add_seasoning (this method would increase the seasonings array
+      and add an additional dish of the same type to the total amount of food)
+
+    2. remove_ingredient (this method would decrease the quantity attribute
+      and add an additional dish of the same type to the total amount of food)
+
+    3. increase_price (this method would increase the price attribute by raising
+      the cost of the food)
+
+  results:
+
+    1. the add_seasoning method would update the seasonings array with a new string
+      => ["pepper", "thyme", "basil", "salt"]
+
+    2. the remove_ingredient method would update the ingredients array to remove specified ingredient string
+      => ["noodles", "marinara sauce"]
+
+    3. the increase_price method would modify the price attribute to reflect and increase in price as the data type float
+      => 10.99
