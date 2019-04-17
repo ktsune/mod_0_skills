@@ -14,14 +14,14 @@
 
   methods:
 
-    1. add_seasoning (this method would increase the seasonings array
-      and add an additional dish of the same type to the total amount of food)
+    1. add_seasoning (this method would update the
+       seasonings array with a new string)
 
-    2. remove_ingredient (this method would decrease the quantity attribute
-      and add an additional dish of the same type to the total amount of food)
+    2. remove_ingredient (this method would update the
+       ingredients array to remove specified ingredient string)
 
-    3. increase_price (this method would increase the price attribute by raising
-      the cost of the food)
+    3. increase_price (this method would modify the price attribute to
+       reflect and increase in price of the dish as the data type float)
 
   results:
 
