@@ -1,0 +1,31 @@
+1) object: seating_section
+
+2) list the values for each attribute
+
+  1) style_of_seating (array of strings) - ["table", "booth"]
+  2) cushion_on_seat (boolean) - false
+  3) seats_per_table (array of hashes) - [{ "table_seats" => 4, "booth_seats" => 3 }]
+
+3) list the results of the method being called for this specific object
+
+  methods:
+
+    1) add_seat_to_table ( this method would
+       increase the value of the key "tables" in the seats_per_table array of hashes )
+
+    2) add_cushion_to_seat ( this method would
+        change the cushion_on_seat boolean for said seat to true )
+
+    3) add_seating_style ( this method would add a string
+        to the style_of_seating array, such as "bar" for bar seating )
+
+  results:
+
+    1) update the add_seat_to_table array of hashes with a new 'value' for table_seats 'key'
+      => [{ "table_seats" => 5, "booth_seats" => 3 }]
+
+    2) change the cushion_on_seat boolean to true
+      => true
+
+    3) this method would update the style_of_seating array with a new string (for example: adding a bar)
+      => ["table", "booth", "bar"]
